@@ -1,0 +1,69 @@
+/* Page background */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1f2633;
+  font-family: Arial, sans-serif;
+}
+ 
+/* The calculator box (bigger) */
+.calculator {
+  width: 400px;
+  max-width: 92vw;
+  padding: 30px;
+  background: #1a1e28;
+  border-radius: 32px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+ 
+/* Small history text */
+.history {
+  height: 24px;
+  text-align: right;
+  color: #6b7a99;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+ 
+/* Main display */
+.screen {
+  background: #0f1216;
+  color: white;
+  font-size: 52px;
+  text-align: right;
+  padding: 30px 20px;
+  border-radius: 18px;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+ 
+/* Grid of 4 columns */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+ 
+/* All buttons */
+button {
+  height: 72px;
+  border: none;
+  border-radius: 18px;
+  background: #2d3548;
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+}
+ 
+button:hover  { filter: brightness(1.2); }
+button:active { transform: scale(0.95); }
+ 
+/* Special button colors */
+.gray     { background: #4a5468; }
+.operator { background: #163a38; color: #00b574; }
+.clear    { background: #44242c; color: #ff7b85; }
+.equals   { background: #04aa6d; }
+ 
