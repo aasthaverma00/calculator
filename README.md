@@ -1,5 +1,6 @@
 <div align="center">
-# 🧮 Simple Calculator
+<h1>🧮 Simple Calculator</h1>
+
  
 A clean, beginner-friendly calculator built with **HTML**, **CSS** and **JavaScript**.
  
